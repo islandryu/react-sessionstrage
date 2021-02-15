@@ -2,7 +2,12 @@
 
 You can use session storage with hooks. Since it is shared in the context, it will be re-rendered when the dependencies are updated.
 
-# How to use
+## install
+```
+npm install react-sessionstorage
+```
+
+## How to use
 
 ```javascript
 import React from "react";
