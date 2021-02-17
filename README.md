@@ -40,3 +40,24 @@ function ChildComponent() {
 
 ReactDOM.render(<Component />, document.getElementById("app"));
 ```
+
+## useSessionStorage
+####response
+```
+[sessionStorage,setSessionStorage,removeSessionStorage]
+```
+#### arguement
+`string[]`
+Put the session storage key in the array。
+Rerendered when the sessionStorage keys contained in the array are updated.
+
+## setSessionStorage
+#### argument
+`setSessionStorage("sesssionStoragekey","value")`
+Set sessionStorage.
+
+#### removeSessionStorage
+#### argument
+`removeSessionStorage("sesssionStoragekey")`
+remove sessionStorage.
+
