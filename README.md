@@ -3,6 +3,7 @@
 You can use session storage with hooks. Since it is shared in the context, it will be re-rendered when the dependencies are updated.
 
 ## install
+
 ```
 npm install react-sessionstorage
 ```
@@ -42,22 +43,29 @@ ReactDOM.render(<Component />, document.getElementById("app"));
 ```
 
 ## useSessionStorage
+
 #### response
+
 ```
 [sessionStorage,setSessionStorage,removeSessionStorage]
 ```
+
 #### arguement
+
 `string[]`
 Put the session storage key in the array。
 Rerendered when the sessionStorage keys contained in the array are updated.
 
 ## setSessionStorage
+
 #### argument
+
 `setSessionStorage("sesssionStoragekey","value")`
 Set sessionStorage.
 
-#### removeSessionStorage
+## removeSessionStorage
+
 #### argument
+
 `removeSessionStorage("sesssionStoragekey")`
 remove sessionStorage.
-
