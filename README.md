@@ -53,7 +53,7 @@ ReactDOM.render(<Component />, document.getElementById("app"));
 #### arguement
 
 `string[]`
-Put the session storage key in the array。
+Put the session storage key in the array.
 Rerendered when the sessionStorage keys contained in the array are updated.
 
 ## setSessionStorage
